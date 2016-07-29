@@ -60,7 +60,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objPared2">
+    <event eventtype="4" ename="objPared3">
       <action>
         <libid>1</libid>
         <id>101</id>
@@ -86,7 +86,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objPared3">
+    <event eventtype="4" ename="objPared2">
       <action>
         <libid>1</libid>
         <id>101</id>

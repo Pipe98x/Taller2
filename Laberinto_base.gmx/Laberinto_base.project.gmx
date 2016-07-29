@@ -37,6 +37,7 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
+    <background>background\bacinicio</background>
     <background>background\fondo_arena</background>
     <background>background\fondo_hierba</background>
   </backgrounds>
@@ -59,6 +60,7 @@
     <object>objects\objAdvertencia</object>
     <object>objects\objPuertaRoja</object>
     <object>objects\objPersonaje</object>
+    <object>objects\objInicio</object>
     <object>objects\objDerecha</object>
     <object>objects\objCofre</object>
     <objects name="Enemigos">
@@ -74,12 +76,12 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Inicio</room>
     <room>rooms\Nivel_1</room>
     <room>rooms\Nivel_2</room>
     <room>rooms\nivel_3</room>
     <room>rooms\nivel_4</room>
     <room>rooms\nivel_5</room>
-    <room>rooms\Inicio</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -61,7 +61,7 @@ if (!place_meeting(x-velocidad,y,objParedPadre))&amp;&amp;(!place_meeting(x-velo
 
 if (!place_meeting(x+velocidad,y,objParedPadre))&amp;&amp;(!place_meeting(x+velocidad,y,objPuertaPadre))
     {
-    if (keyboard_check(vk_end)) {x = x+velocidad;}
+    if (keyboard_check(vk_right)) {x = x+velocidad;}
     }
     
 if (!place_meeting(x,y-velocidad,objParedPadre))&amp;&amp;(!place_meeting(x,y-velocidad,objPuertaPadre))
