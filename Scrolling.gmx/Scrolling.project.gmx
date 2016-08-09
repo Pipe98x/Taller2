@@ -5,14 +5,19 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
+    <sound>sound\snd_da_o</sound>
     <sound>sound\snd_exploP</sound>
     <sound>sound\snd_exploE</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\spr_Enemigo3</sprite>
     <sprite>sprites\spr_bottom</sprite>
     <sprite>sprites\spr_Plane</sprite>
     <sprite>sprites\spr_Isla1</sprite>
+    <sprite>sprites\spr_BalaE2</sprite>
+    <sprite>sprites\spr_Enemigo2</sprite>
     <sprite>sprites\spr_Isla2</sprite>
+    <sprite>sprites\spr_BalaE1</sprite>
     <sprite>sprites\spr_exploE</sprite>
     <sprite>sprites\spr_Enemigo1</sprite>
     <sprite>sprites\spr_exploP</sprite>
@@ -29,9 +34,13 @@
     <object>objects\obj_exploE</object>
     <object>objects\obj_exploP</object>
     <object>objects\obj_Isla1</object>
+    <object>objects\obj_BalaE1</object>
     <object>objects\obj_Isla2</object>
     <object>objects\obj_controlador_vida</object>
+    <object>objects\obj_BalaE2</object>
     <object>objects\obj_Enemigo</object>
+    <object>objects\obj_Enemigo2</object>
+    <object>objects\obj_Enemigo3</object>
     <object>objects\obj_Isla3</object>
     <object>objects\obj_plane</object>
     <object>objects\obj_Bala</object>

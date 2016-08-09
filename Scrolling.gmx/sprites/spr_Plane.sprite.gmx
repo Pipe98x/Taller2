@@ -3,9 +3,9 @@
   <type>0</type>
   <xorig>32</xorig>
   <yorigin>32</yorigin>
-  <colkind>0</colkind>
+  <colkind>1</colkind>
   <coltolerance>0</coltolerance>
-  <sepmasks>-1</sepmasks>
+  <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>3</bbox_left>
   <bbox_right>61</bbox_right>
@@ -21,5 +21,7 @@
   <height>65</height>
   <frames>
     <frame index="0">images\spr_Plane_0.png</frame>
+    <frame index="1">images\spr_Plane_1.png</frame>
+    <frame index="2">images\spr_Plane_2.png</frame>
   </frames>
 </sprite>

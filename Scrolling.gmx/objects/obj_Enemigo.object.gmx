@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>if(y &gt; room_height - sprite_height/2){
-    x = random(room_height);
+    x = irandom_range(sprite_width/2, room_width - sprite_width/2);
     y = -sprite_height/2;
 }
     
@@ -80,7 +80,7 @@ with(other){
     instance_destroy();
 }
 instance_create(x,y, obj_exploE);
-x = random(room_width);
+x = irandom_range(sprite_width, room_width - sprite_width/2);
 y = -sprite_height/2;
 score = score + 5
 
@@ -110,7 +110,7 @@ show_debug_message("score")
             <string>audio_play_sound(snd_exploE,10,false);
 instance_create(x,y,obj_exploE);
 health -=30
-x = random(room_width)
+x = irandom_range(sprite_width, room_width - sprite_width/2);
 y = -sprite_height/2
 </string>
           </argument>
