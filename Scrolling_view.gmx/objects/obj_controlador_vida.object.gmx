@@ -51,11 +51,9 @@ health = 100;
           <argument>
             <kind>1</kind>
             <string>/// Administracion de las vidas y nivel de daño
-
 view_yview[0] -=2;
-if(view_yview[0] &lt; 0) {
-    show_debug_message("Ganaste");
-    game_restart();
+if(view_yview[0] &lt; 0 ){
+ show_debug_message("ganaste")
 }
 
 if(health &lt;= 0) {
@@ -68,6 +66,8 @@ if(health &lt;= 0) {
 if(lives &lt;= 0){
     game_restart();
 }
+
+
 </string>
           </argument>
         </arguments>

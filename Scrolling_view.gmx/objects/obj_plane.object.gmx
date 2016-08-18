@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>vspeed = -2
 can_shoot = 1;
+vibrar = 0;
 </string>
           </argument>
         </arguments>
@@ -135,6 +136,42 @@ if(fire) {
     alarm[0] = 15;
     }
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_BalaE1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_play_sound(snd_da_o, 10, false)
+
+with  (obj_BalaE1){
+ instance_destroy();
+ }
+health -= 5;
+
+vibrar = 12;
+
+view_xview = random_range(-vibrar, vibrar);
+///view_yview = random_range(view_yview - vibrar, view_yview + vibrar);
+vibrar *= 0.5;
+
+
 </string>
           </argument>
         </arguments>

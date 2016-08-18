@@ -46,7 +46,6 @@
     <object>objects\obj_plane</object>
     <object>objects\obj_Bala</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\room0</room>
   </rooms>
