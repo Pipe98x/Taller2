@@ -30,7 +30,7 @@
 grave = 0.2;
 hsp = 0;
 vsp = 0;
-movespeed = 4;
+movespeed = 5;
 jumpspeed_normal = 5;
 jumpspeed_powerup = 10;
 jumpspeed = jumpspeed_normal;
