@@ -4,9 +4,16 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_enemigoM</sound>
+    <sound>sound\snd_disparo</sound>
+  </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_Personaje</sprite>
+    <sprite>sprites\spr_Bala</sprite>
+    <sprite>sprites\spr_personaje_corre</sprite>
+    <sprite>sprites\spr_personaje_cae</sprite>
+    <sprite>sprites\spr_personaje_salta</sprite>
+    <sprite>sprites\spr_personaje_pie</sprite>
     <sprite>sprites\spr_enemigo</sprite>
     <sprite>sprites\spri_powerup</sprite>
     <sprite>sprites\spr_Personaje2</sprite>
@@ -16,8 +23,10 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_enemigo</object>
+    <object>objects\obj_Bala</object>
     <object>objects\obj_powerup</object>
     <object>objects\obj_personaje</object>
+    <object>objects\obj_enemigo_padre</object>
     <object>objects\obj_muro</object>
   </objects>
   <rooms name="rooms">
