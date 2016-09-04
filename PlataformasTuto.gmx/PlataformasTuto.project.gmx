@@ -26,7 +26,6 @@
     <object>objects\obj_Bala</object>
     <object>objects\obj_powerup</object>
     <object>objects\obj_personaje</object>
-    <object>objects\obj_enemigo_padre</object>
     <object>objects\obj_muro</object>
   </objects>
   <rooms name="rooms">

@@ -174,11 +174,11 @@ else
             <kind>1</kind>
             <string>/// Disparar
 
-fire = keyboard_check(vk_f1);
+fire = keyboard_check(ord("F"));
 
 if(fire) {
     if(can_shoot){
-    audio_play_sound(snd_disparo,10,false);
+    audio_play_sound(snd_disparo,9,false);
     instance_create(x, y ,obj_Bala);
     can_shoot = 0;
     alarm[1] = 15;

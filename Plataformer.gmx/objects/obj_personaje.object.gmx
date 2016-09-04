@@ -54,7 +54,7 @@ jumpspeed = 6;
           <argument>
             <kind>1</kind>
             <string>/// movimiento
-key_right = keyboard_check(vk_end);
+key_right = keyboard_check(vk_right);
 key_left = keyboard_check(vk_left);
 key_space = keyboard_check(vk_space);
 
