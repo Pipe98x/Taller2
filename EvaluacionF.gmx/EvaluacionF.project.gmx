@@ -5,6 +5,7 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
+    <sound>sound\snd_llave</sound>
     <sound>sound\snd_enemigoM</sound>
     <sound>sound\snd_fondo</sound>
   </sounds>
@@ -16,6 +17,7 @@
     <sprite>sprites\spr_personaje_corre</sprite>
     <sprite>sprites\spr_explo</sprite>
     <sprite>sprites\spr_personaje_cae</sprite>
+    <sprite>sprites\spr_vida</sprite>
     <sprite>sprites\spr_llave</sprite>
     <sprite>sprites\spr_personaje_salta</sprite>
     <sprite>sprites\spr_puerta_</sprite>
@@ -43,6 +45,7 @@
       <object>objects\obj_llave1</object>
       <object>objects\obj_puerta</object>
     </objects>
+    <object>objects\object17</object>
     <object>objects\obj_explo</object>
     <object>objects\obj_enemigo2</object>
     <object>objects\obk_meta</object>

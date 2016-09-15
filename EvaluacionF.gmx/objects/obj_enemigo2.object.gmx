@@ -83,11 +83,13 @@ y+= vsp;
 
 /// Colision
 
-if(place_meeting(x,y,obj_personaje)) 
-{
-   
-        room_restart()
+if(place_meeting(x,y,obj_personaje)) {
+    with(obj_personaje){
+    life-=1;
     }
+    instance_destroy()
+    audio_play_sound(snd_enemigoM,9,false)
+}
 </string>
           </argument>
         </arguments>
