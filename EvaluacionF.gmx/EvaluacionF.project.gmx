@@ -48,6 +48,7 @@
     <object>objects\object17</object>
     <object>objects\obj_explo</object>
     <object>objects\obj_enemigo2</object>
+    <object>objects\object16</object>
     <object>objects\obk_meta</object>
     <object>objects\obj_powerup</object>
     <object>objects\obj_personaje</object>

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = -8*obj_enemigo.dir;
+            <string>hspeed = 8
 </string>
           </argument>
         </arguments>
